@@ -24,8 +24,10 @@ function App() {
   };
 
   const img = "https://www.exchangerate-api.com/img/brochure/saas-3-edit-cc.webp"
-  const img2 = "https://img.freepik.com/premium-photo/stock-market-forex-trading-graph-graphic-double-exposure_73426-110.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1698883200&semt=ais"
+  const img2 = "https://watermark.lovepik.com/photo/40172/7536.jpg_wh1200.jpg"
   return (
+    <>
+    <h1 className="text-white text-center">CURRANCY CONVERTOR</h1>
     <div
     className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat "
     style={{
@@ -88,6 +90,7 @@ function App() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
